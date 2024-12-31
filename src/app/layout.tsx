@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import '@/app/style/globals.scss';
 import '@/app/style/variables.scss';
 import styles from './layout.module.scss';
-import Footer from '@/components/footer/footer';
+import SideMenu from '@/components/sideMenu/sideMenu';
 
 export const metadata: Metadata = {
     title: 'Create Next App',
@@ -17,8 +17,8 @@ export default function RootLayout({
     return (
         <html lang="ja">
             <body>
+                <SideMenu />
                 <main className={styles.main}>{children}</main>
-                <Footer />
             </body>
         </html>
     );

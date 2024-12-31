@@ -3,7 +3,38 @@
     // 色
     --text-main: #162332;
     --text-link: #1266c7;
-    --border: #162332;
+    // --border: #162332;
     --bg-main: #ffffff;
     --bg-footer: #ffffff;
+
+    --white: #ffffff;
+    --black: #222222;
+    --black-thin: color-mix(in sRGB, var(--black) 50%, white);
+    --bg: #ffffff;
+    --error: #d6000f;
+    --warning: #ffe600;
+    --disabled: #c4c4c4;
+    --header: color-mix(in sRGB, var(--sidemenu) 90%, black);
+    --sidemenu: #fcfcfc;
+    --sidemenu-dark: color-mix(in sRGB, var(--sidemenu) 90%, black);
+    --main: #ffffff;
+
+    --border: #3b3b6b;
+    --base: #3b3b6b;
+    --base-thin: color-mix(in sRGB, var(--base) 20%, white);
+    --base-dark: color-mix(in srgb, var(--base) 40%, black);
+    --icon: #3b3b6b;
+    --current: #d24848;
+    --current-thin: color-mix(in sRGB, var(--current) 60%, white);
+    --logo-red: #d24848;
+
+    --button: red;
+    // イージング ======================
+    --ease-fast: cubic-bezier(0.4, 0.41, 0.25, 1);
+    // タイム ======================
+    --time-base: 0.16s;
+    --time-fase: 0.08s;
+
+    --time-page-transition: 3s;
+    // その他 ======================
 }
