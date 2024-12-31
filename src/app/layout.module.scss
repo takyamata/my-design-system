@@ -1,0 +1,9 @@
+@use "@mixin" as *;
+.main {
+    min-height: calc(100svh);
+    position: relative;
+    padding: 3rem 5rem;
+    &:has(:global(.motomachi)) {
+        padding: 0;
+    }
+}

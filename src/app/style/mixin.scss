@@ -1,0 +1,43 @@
+@use "sass:math";
+// SP幅
+@mixin query($size) {
+    @media screen and (max-width: 834px) {
+        @content;
+    }
+}
+
+// デスクトップ幅
+@mixin query_min($size) {
+    @media screen and (min-width: #{$size}px) {
+        @content;
+    }
+}
+
+// ホバー
+@mixin hover {
+    @media (hover: hover) and (pointer: fine) {
+        &:hover {
+            @content;
+        }
+    }
+}
+
+@mixin fts($fts, $lin: 24) {
+    $rem: math.div($fts, 10);
+    $linS: math.div($lin, $fts);
+    font-size: #{$rem}rem;
+    line-height: $linS;
+}
+
+@function tracking-to-em($tracking) {
+    @return $tracking * 0.001 + 0em;
+}
+
+@mixin ls($tracking) {
+    letter-spacing: tracking-to-em($tracking);
+    text-indent: tracking-to-em($tracking);
+}
+
+@mixin red {
+    background-color: red;
+}

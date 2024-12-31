@@ -1,0 +1,36 @@
+
+> nextjs@0.1.0 build-storybook
+> storybook build --output-dir=/var/folders/wz/nx01pnxd3l35x6gxzklyggxm0000gn/T/chromatic--28749-POa3BDH72uKq
+
+[1m@storybook/core v8.4.7
+[22m
+info => Cleaning outputDir: [36m../../../var/folders/wz/nx01pnxd3l35x6gxzklyggxm0000gn/T/chromatic--28749-POa3BDH72uKq[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m234 ms[39m)
+info => Building preview..
+info Addon-docs: using MDX3
+info => Using implicit CSS loaders
+info => Using SWC as compiler
+info => Using default Webpack5 setup
+info => Copying static files: [36mpublic[39m at [36m../../../var/folders/wz/nx01pnxd3l35x6gxzklyggxm0000gn/T/chromatic--28749-POa3BDH72uKq[39m
+info Using tsconfig paths for react-docgen
+WARN Module Warning (from ./node_modules/sass-loader/dist/cjs.js):
+WARN Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+WARN 
+WARN More info: https://sass-lang.com/d/legacy-js-api
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   735.a6312b56.iframe.bundle.js (359 KiB)
+WARN   454.ea93337c.iframe.bundle.js (1.8 MiB)
+WARN   878.84fac340.iframe.bundle.js (972 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (1.81 MiB)
+WARN       runtime~main.cb6c6ed0.iframe.bundle.js
+WARN       454.ea93337c.iframe.bundle.js
+WARN       main.8cead398.iframe.bundle.js
+WARN 
+info => Preview built ([38;2;181;126;229m7.93 s[39m)
+info => Output directory: /var/folders/wz/nx01pnxd3l35x6gxzklyggxm0000gn/T/chromatic--28749-POa3BDH72uKq

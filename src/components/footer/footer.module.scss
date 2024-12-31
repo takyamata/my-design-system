@@ -1,0 +1,16 @@
+@use "@mixin" as *;
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bg-footer);
+    border-top: 0.1rem solid var(--border);
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+    height: 5rem;
+}
