@@ -3,7 +3,7 @@ import styles from './button.module.scss';
 
 type ButtonProps = {
     children: React.ReactNode;
-    variant?: 'primary' | 'secondary' | 'tertiary' | 'transparent';
+    variant?: 'primary' | 'secondary' | 'tertiary' | 'transparent' | string;
     disabled?: boolean;
     onClick?: () => void;
 };
